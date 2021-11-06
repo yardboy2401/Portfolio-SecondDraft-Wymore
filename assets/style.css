@@ -54,24 +54,18 @@ body .contact {
 }
 
 body .workProject1 {
-  height: 400px;
-  width: 60%;
   border: 3px solid black;
   border-left: solid 5px black;
 }
 
 body .codeQuizGame {
   color: white;
-  height: 150px;
-  width: 30%;
   border: 3px solid black;
   border-left: solid 5px black;
 }
 
 body .weatherDashboard {
   color: white;
-  height: 150px;
-  width: 30%;
   border: 3px solid black;
 }
 
