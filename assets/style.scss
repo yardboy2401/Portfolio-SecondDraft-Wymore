@@ -29,6 +29,12 @@ body {
         color: white;
         padding-top: 100px;
     }
+
+    .aboutMeTitle, .workTitle, .contactTitle, .resumeTitle {
+        color: white;
+        font-size: 24px;
+        font-weight: bolder;
+    }
     
     .aboutMeParagraph {
         border-left: solid 5px black;
