@@ -6,26 +6,47 @@ body {
         background-color: black;
     }
     
-    .aboutMe {
+    .contentSection {
+        display: flex;
+        align-items: flex-start;
+        flex-flow: row nowrap;
+    }
+
+    .contentSection header {
+        display: flex;
+        width: 10%;
+    }
+
+    .background {
         background-image: url("/assets/ocean.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
+    }
+    
+    .aboutMe {
+
         font-size: 20px;
         color: white;
-        height: 300px;
         padding-top: 100px;
-        display: flex;
     }
     
-    #aboutMeTitle {
+    .aboutMeTitle {
         border-right: solid 5px black;
-        padding-right: 25px;
     }
     
-    .aboutMeParagraph {
+    #aboutMeParagraph {
         line-height: 2.5;
         padding-left: 25px;
+    }
 
+    .work {
+        font-size: 20px;
+        color: white;
+    }
+
+    .contact {
+        font-size: 20px;
+        color: white;
     }
 
 }

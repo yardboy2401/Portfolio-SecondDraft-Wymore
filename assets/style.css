@@ -4,26 +4,54 @@ body nav .nav-wrapper {
   background-color: black;
 }
 
-body .aboutMe {
-  background-image: url("/assets/ocean.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  font-size: 20px;
-  color: white;
-  height: 300px;
-  padding-top: 100px;
+body .contentSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
 }
 
-body #aboutMeTitle {
+body .contentSection header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10%;
+}
+
+body .background {
+  background-image: url("/assets/ocean.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+body .aboutMe {
+  font-size: 20px;
+  color: white;
+  padding-top: 100px;
+}
+
+body .aboutMeTitle {
   border-right: solid 5px black;
-  padding-right: 25px;
 }
 
-body .aboutMeParagraph {
+body #aboutMeParagraph {
   line-height: 2.5;
   padding-left: 25px;
+}
+
+body .work {
+  font-size: 20px;
+  color: white;
+}
+
+body .contact {
+  font-size: 20px;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
