@@ -8,14 +8,22 @@ body .aboutMe {
   background-image: url("/assets/ocean.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  font-size: 20px;
+  color: white;
   height: 300px;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-body .aboutMeTitle {
-  font-size: 28px;
+body #aboutMeTitle {
+  border-right: solid 5px black;
+  padding-right: 25px;
 }
 
 body .aboutMeParagraph {
   line-height: 2.5;
+  padding-left: 25px;
 }
 /*# sourceMappingURL=style.css.map */
