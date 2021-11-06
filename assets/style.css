@@ -2,6 +2,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css");
 body nav .nav-wrapper {
   background-color: black;
+  height: 125%;
 }
 
 body .contentSection {
@@ -36,13 +37,8 @@ body .aboutMe {
   padding-top: 100px;
 }
 
-body .aboutMeTitle {
-  border-right: solid 5px black;
-}
-
-body #aboutMeParagraph {
-  line-height: 2.5;
-  padding-left: 25px;
+body .aboutMeParagraph {
+  border-left: solid 5px black;
 }
 
 body .work {
@@ -53,5 +49,25 @@ body .work {
 body .contact {
   font-size: 20px;
   color: white;
+}
+
+body .workProject1 {
+  height: 300px;
+  width: 60%;
+  border: 3px solid black;
+  border-left: solid 5px black;
+}
+
+body .codeQuizGame {
+  height: 150px;
+  width: 30%;
+  border: 3px solid black;
+  border-left: solid 5px black;
+}
+
+body .weatherDashboard {
+  height: 150px;
+  width: 30%;
+  border: 3px solid black;
 }
 /*# sourceMappingURL=style.css.map */
